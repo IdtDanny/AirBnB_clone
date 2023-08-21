@@ -2,19 +2,15 @@ header {
     background-color: white;
     height: 70px;
     width: 100%;
-    border-bottom: 1px solid #CCCCCC;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
+    border-bottom: solid 1px #CCCCCC;
+    /* logo align on left and center vertically (20px space at the left) */
 }
 
-.logo {
-    vertical-align: middle;
-    width: 141px;
-    height: 59px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-right: 20px;
-    background: url("../images/logo.png");
+span {
+    float: left;
+    margin-left: 20px;
+    height: 62px;
+    width: 142px;
+    margin-top: calc((70px - 62px) / 2);
+    background-image: url('../images/logo.png');
 }

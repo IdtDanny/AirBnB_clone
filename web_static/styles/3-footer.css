@@ -1,13 +1,16 @@
 footer {
-    background-color: white;
+    background-color: #fff;
     height: 60px;
     width: 100%;
-    border-top: 1px solid #CCCCCC;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    border-top: solid 1px #CCCCCC;
+    text-align: center;
+    /* position: relative; */
+    /* margin-top: 60px; */
+    /* clear: both; */
+    /* position: absolute; */
+    /* right: 0; */
+    /* left: 0; */
+    /* bottom: 0; */
+    /* additional for stick */
+    margin-top: auto;
 }
